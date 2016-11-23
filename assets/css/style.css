@@ -1,0 +1,15 @@
+#container {
+	background-color: green;
+	height: 100%;
+	padding: 15px 5px 15px 5px;
+}
+
+#leftNavCol {
+	background-color: red;
+	height: 100%;
+}
+
+#rightMainCol {
+	background-color: blue;
+	padding: 10px;
+}
