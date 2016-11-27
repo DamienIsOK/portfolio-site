@@ -1,15 +1,77 @@
-#container {
-	background-color: green;
-	height: 100%;
-	padding: 15px 5px 15px 5px;
+html {
+	background-color: #28170F;
+	background-image: url("https://www.transparenttextures.com/patterns/fake-brick.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
-#leftNavCol {
-	background-color: red;
-	height: 100%;
+.wrapper {
+	/*background-color: #1A1A1A;*/
+	/*height: 100%;*/
+	margin-right: 0px;
+	margin-left: 0px;
 }
 
-#rightMainCol {
-	background-color: blue;
-	padding: 10px;
+.navbar {
+	position: fixed;
+}
+
+header {
+	background-color: #ADF5FF;
+	padding-bottom: 0.5%;
+	width: 100%;
+	position: fixed;	
+}
+
+#nav {
+	color: #F47F7D;
+	font-size: 1.2em;
+	word-spacing: 20px;
+	float: right;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+#nav li {
+	display: inline;
+	word-spacing: 20px;
+	font-family: 'Lato', sans-serif;
+}
+
+#name {
+	float: left;
+	font-size: 2em;
+	font-weight: 400;
+	font-family: 'Georgia', serif;
+	color: #F47F7D;
+	margin-top: 5%;
+	margin-left: 5%;
+	/*border: 1px solid blue;*/
+}
+
+#main-bg {
+	background-color: #ADF5FF;
+	height: 100%;
+	margin-top: 5%;
+	padding: 10px 15px 10px 15px;
+	-webkit-box-shadow: 3px 4px 3px -1px rgba(0,0,0,0.59);
+	-moz-box-shadow: 3px 4px 3px -1px rgba(0,0,0,0.59);
+	box-shadow: 3px 4px 3px -1px rgba(0,0,0,0.59);
+}
+
+#profile-img {
+	float: left;
+	width: 50%;
+	margin-right: 10px;
+	border: 1px solid black;
+}
+
+#tech-bg {
+	background-color: transparent;
+	border: 1px solid #ADF5FF;
+	height: 100%;
+	margin-top: 2%;
+	padding: 10px 15px 10px 15px;
+	-webkit-box-shadow: 3px 4px 3px -1px rgba(0,0,0,0.59);
+	-moz-box-shadow: 3px 4px 3px -1px rgba(0,0,0,0.59);
+	box-shadow: 3px 4px 3px -1px rgba(0,0,0,0.59);
 }
