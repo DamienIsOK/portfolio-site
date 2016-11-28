@@ -1,0 +1,67 @@
+
+@media only screen and (min-width: 0px) and (max-width: 991px){
+	.left-menu{
+		position: absolute;
+		z-index: 999;
+	}
+	.user-header img{
+		margin-top: 40px;
+	}
+}
+@media only screen and (min-width: 0px) and (max-width: 767px){
+	.cart p, .contact p, .pcart p{
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.pcart a{
+		font-size: 14px;
+	}
+	.user-header h1{
+		font-size: 26px;
+	}
+	.user-header h4{
+		font-size: 20px;
+	}
+	h1{
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+	.user-header img{
+		height: 200px;
+		width: 200px;
+	}
+	.work h4, .education h4{
+		font-size: 18px;
+	}
+	.user-header {
+	    margin-bottom: 30px;
+	}
+	.left-menu a, .page-title {
+	    font-size: 20px;
+	}
+	header{
+		min-height: 80px;
+	}
+	.left-menu{
+		padding-top: 20px;
+	}
+	.pcart h2, .pcart2 h2 {
+	    font-size: 20px;
+	    margin: 30px 0px 15px 0px;
+	}
+	.cover-letter h4 {
+	    font-weight: normal;
+	    line-height: 26px;
+	    font-size: 17px;
+	    margin-bottom: 10px;
+	}
+	.cover-letter small{
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+	.left-menu a i {
+	    height: 40px;
+	    width: 40px;
+	    padding: 10px 0px 0px 10px;
+	}
+}
