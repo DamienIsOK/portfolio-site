@@ -4,6 +4,22 @@ html, body{
 	color: #212121;
 	background-image: url('../images/crossword.png');
 }
+a {
+	color: white;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+	color: DarkBlue;
+}
+
 h1{
 	font-size: 26px;
 	font-weight: 600;
@@ -22,16 +38,16 @@ header{
 }
 
 .user-header{
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 }
 .user-header img{
 	position: relative;
-	border: 10px solid #2b98d4;
+	border: 7px solid #2b98d4;
 	height: 180px;
 	/*width: 220px;*/
     margin-left: auto;
     margin-right: auto;
-    margin-top: -150px;
+    margin-top: -140px;
 }
 .user-header h1{
 	font-size: 36px;
@@ -48,6 +64,7 @@ header{
 .right-menu {
 	padding-top: 70px;
 	text-align: right;
+	font-size: 14px;
 }
 
 .right-menu li {
@@ -57,7 +74,6 @@ header{
 
 .left-menu a, .page-title{
 	font-size: 26px;
-	/*text-transform: uppercase;*/
 	font-weight: 400;
 	color: #fff;
 }
@@ -115,7 +131,7 @@ header{
 }
 .about-me a, .cart a{
 	font-size: 16px;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	margin-top: 40px;
 	color: #488fcc;
 }
@@ -182,30 +198,6 @@ header{
 	margin-bottom: 10px;
 }
 
-/*Language*/
-.language img{
-	border-radius: 10px;
-	width: 100%;
-	border: 2px solid #fff;
-}
-.language .star{
-	float: none;
-	color: #fed600;
-	padding: 0;
-	background-color: transparent;
-	height: auto;
-	width: auto;
-	margin-top: 10px;
-	font-size: 20px;
-	margin: 0px;
-}
-.language h4{
-	text-transform: uppercase;
-	font-size: 18px;
-	margin: 15px 0px 5px 0px;
-	padding: 0;
-}
-
 /*Work experiences*/
 .work h4, .education h4{
 	font-size: 20px;
@@ -261,9 +253,11 @@ header{
 	text-decoration: none;
 }
 
-/*=====================
-Cover Leter Stylesheet
-======================*/
+/*===========================
+UNUSED STYLES
+===========================*/
+
+/*Cover Letter Stylesheet*/
 .cover-letter h4{
 	font-weight: normal;
 	line-height: 20px;
@@ -282,4 +276,28 @@ Cover Leter Stylesheet
 	margin-top: 10px;
 	font-size: 20px;
 	color: #2b98d4;
+}
+
+/*Language*/
+.language img{
+	border-radius: 10px;
+	width: 100%;
+	border: 2px solid #fff;
+}
+.language .star{
+	float: none;
+	color: #fed600;
+	padding: 0;
+	background-color: transparent;
+	height: auto;
+	width: auto;
+	margin-top: 10px;
+	font-size: 20px;
+	margin: 0px;
+}
+.language h4{
+	text-transform: uppercase;
+	font-size: 18px;
+	margin: 15px 0px 5px 0px;
+	padding: 0;
 }
